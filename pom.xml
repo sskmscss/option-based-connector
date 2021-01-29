@@ -1,0 +1,37 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>message-framework-parent</groupId>
+  <artifactId>message-sdk-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>0.11.0-SNAPSHOT</version>
+  <name>message-sdk-parent</name>
+  <description>SDK for Message.</description>
+  <properties>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+<!--      <dependency>-->
+<!--        <groupId>com.tcs.integration</groupId>-->
+<!--		<artifactId>common</artifactId>-->
+<!--		<version>0.0.1-SNAPSHOT</version>-->
+<!--		<name>common</name>-->
+<!--		<description>Common Integration Implementation</description>-->
+<!--      </dependency>-->
+      </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <plugins>
+    </plugins>
+  </build>
+
+  <modules>
+    <module>ah-msg-connector-shared</module>
+    <module>event-driven-test</module>
+    
+  </modules>
+</project>
