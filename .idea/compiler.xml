@@ -12,7 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ah-msg-connector-shared" target="1.8" />
+      <module name="ah-msg-connector-shared" target="11" />
       <module name="common" target="1.8" />
       <module name="event-driven-test" target="1.8" />
       <module name="message-sdk-parent" target="1.5" />

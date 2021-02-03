@@ -15,16 +15,43 @@
 	<description>ah-msg-connector-shared</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<kotlin.version>1.4.21</kotlin.version>
+		<nirvana.version>10.3.0.2.114959</nirvana.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>nexus-commerce-maven-public</id>
+			<url>https://nexus.ah.nl/repository/commerce-maven-public/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
-		<!-- 		WORKING SOLUTION AFTER MAVEN INSTALL LOCAL		-->
+<!--		<dependency>-->
+<!--			<groupId>com.nirvana</groupId>-->
+<!--			<artifactId>nServer</artifactId>-->
+<!--			<version>${nirvana.version}</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>com.nirvana</groupId>-->
+<!--			<artifactId>nProtocols</artifactId>-->
+<!--			<version>${nirvana.version}</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>com.nirvana</groupId>-->
+<!--			<artifactId>nPlugin</artifactId>-->
+<!--			<version>${nirvana.version}</version>-->
+<!--		</dependency>-->
 		<dependency>
-			<groupId>com.pcbsys.nirvana.client</groupId>
+			<groupId>com.nirvana</groupId>
+			<artifactId>nJMS</artifactId>
+			<version>${nirvana.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.nirvana</groupId>
 			<artifactId>nClient</artifactId>
-			<version>1.0</version>
+			<version>${nirvana.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jetbrains.kotlin</groupId>
@@ -35,6 +62,16 @@
 			<groupId>org.jetbrains.kotlin</groupId>
 			<artifactId>kotlin-stdlib-jdk8</artifactId>
 			<version>1.4.21</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jms</artifactId>
+			<version>5.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.main.javaee-api</groupId>
+			<artifactId>javax.jms</artifactId>
+			<version>3.1.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

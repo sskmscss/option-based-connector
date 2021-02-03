@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.nirvana:nJMS:10.3.0.2.114959">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nirvana/nJMS/10.3.0.2.114959/nJMS-10.3.0.2.114959.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nirvana/nJMS/10.3.0.2.114959/nJMS-10.3.0.2.114959-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nirvana/nJMS/10.3.0.2.114959/nJMS-10.3.0.2.114959-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

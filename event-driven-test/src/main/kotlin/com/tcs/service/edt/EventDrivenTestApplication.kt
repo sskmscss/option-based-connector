@@ -23,6 +23,9 @@ fun main(args: Array<String>) {
 				"kafka" -> {
 					println("KAFKA SUBSCRIBED MESSAGE :: " + it.optString("data"))
 				}
+				"webm" -> {
+					println("WEBM TOPIC SUBSCRIBED MESSAGE :: " + it.optString("data"))
+				}
 			}
 		} catch(e: Exception) {
 			println(e)
